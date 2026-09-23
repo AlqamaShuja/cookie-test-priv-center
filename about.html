@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - My Test App</title>
+    <title>About - My Test App</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,10 +14,9 @@
     </header>
 
     <main>
-        <h1>Welcome to My Test App</h1>
-        <p id="message">Click the button to change this text.</p>
-        <button onclick="changeText()">Click Me</button>
-        <p class="hint">Scroll down and use a footer link. You should land on the privacy page with the notice already scrolled to that section.</p>
+        <h1>About</h1>
+        <p>A second page without any iframe, to prove footer links work from anywhere on the site.</p>
+        <p class="hint">Try: <a href="privacy.html#acceptance-criteria-2-4">read Acceptance Criteria 2 in our privacy policy</a>.</p>
     </main>
 
     <!-- Plain footer, exactly what a client writes: page link + section anchor copied from the notice builder -->
@@ -32,7 +31,6 @@
         <p class="footer-note">Current notice section: <code id="current-notice-section">(none)</code></p>
     </footer>
 
-    <script src="script.js"></script>
     <script src="footer.js"></script>
 </body>
 </html>

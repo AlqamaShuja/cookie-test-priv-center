@@ -17,3 +17,59 @@ button {
 button:hover {
     background: #333;
 }
+
+/* --- test site layout ------------------------------------------------- */
+body {
+    margin: 0;
+}
+
+.site-header {
+    padding: 16px;
+    background: #111;
+}
+
+.site-header a {
+    color: #fff;
+    margin: 0 12px;
+    text-decoration: none;
+}
+
+main {
+    max-width: 720px;
+    margin: 40px auto;
+    padding: 0 16px;
+    /* tall enough that the footer is below the fold, like a real page */
+    min-height: 120vh;
+}
+
+main.wide {
+    max-width: 1100px;
+    text-align: left;
+}
+
+.hint {
+    color: #555;
+    font-size: 14px;
+}
+
+.site-footer {
+    padding: 32px 16px;
+    background: #222;
+    color: #ccc;
+}
+
+.footer-links a {
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    line-height: 2;
+}
+
+.footer-note {
+    font-size: 13px;
+    margin: 8px 0 0;
+}
+
+.footer-note code {
+    color: #9f9;
+}
