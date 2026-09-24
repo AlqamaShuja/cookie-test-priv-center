@@ -1,7 +1,7 @@
 /**
  * Demo helper only (clients do not need this): prints the notice section currently in the page URL
  * (e.g. privacy.html#your-rights-4 -> "your-rights-4") into <code id="current-notice-section">.
- * noticeEmbed.js updates that fragment with replaceState, which does not fire the browser's
+ * notice-embed.js updates that fragment with replaceState, which does not fire the browser's
  * "hashchange" event, so we also poll.
  */
 
