@@ -6,16 +6,16 @@
  */
 
 /* ---------- Plain JavaScript version ---------- */
-function showCurrentNoticeSection() {
-    var indicator = document.getElementById('current-notice-section')
-    if (indicator) {
-        indicator.textContent = decodeURIComponent(window.location.hash.replace(/^#/, '')) || '(none)'
-    }
-}
+// function showCurrentNoticeSection() {
+//     var indicator = document.getElementById('current-notice-section')
+//     if (indicator) {
+//         indicator.textContent = decodeURIComponent(window.location.hash.replace(/^#/, '')) || '(none)'
+//     }
+// }
 
-window.addEventListener('hashchange', showCurrentNoticeSection) // footer links, back/forward
-setInterval(showCurrentNoticeSection, 300) // section clicks inside the notice (replaceState)
-showCurrentNoticeSection()
+// window.addEventListener('hashchange', showCurrentNoticeSection) // footer links, back/forward
+// setInterval(showCurrentNoticeSection, 300) // section clicks inside the notice (replaceState)
+// showCurrentNoticeSection()
 
 /* ---------- jQuery version (same behaviour; use INSTEAD of the block above on a site that loads jQuery) ----------
 $(function () {
